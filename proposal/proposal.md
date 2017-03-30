@@ -1,0 +1,33 @@
+**Who will participate in the final project?** I will be completing my
+project by myself.
+
+**Will the project will be a data analysis project or a package?** The
+project will be a package.
+
+**Which git workflow from the Chacon text you will use?** I'm not sure,
+since it will just be me working on the project.
+
+**What will the project be about?** \*What is the background for the
+need for the project? I.e., what problem does it solve, and why does
+that problem need to be solved? Topographic ridges formed by tectonic
+contraction will be oriented perpendicular to the direction of greatest
+compressional stress. I want to write a package that will help in
+finding the direction of greatest compressional stress by analyzing the
+orientations of some ridges. Ridges can be examined visually to find a
+qualitative estimate of the preferred orientation, if there is one.
+However, they must be analyzed further to find a numerical answer for
+the preferred orientation and thus the direction of greatest
+compressional stress.
+
+\*What is the source of the data? Will real-world data or made-up data
+be used? I will use real-world data from my study area on Mars and/or
+regions with multiple ridges on Earth.
+
+\*What specifications will the final project meet? I.e., what will you
+produce (a single plot of this vs that, a set of tools that does these
+three things, etc) The input data will be azimuth orientations of
+ridges. The output will include a rose diagram of the orientations
+binned in 10 degree increments. The code will also output the azimuth
+preferred orientation and the direction of greatest compressional
+stress. I'm pretty sure there is a way to do this, although I can't
+remember the name right now.
