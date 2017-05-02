@@ -1,0 +1,19 @@
+Package: StressOrient
+Title: Analyzes ridge orientations to find preferred stress orientation
+Version: 0.0.0.9000
+Authors@R: person(“Rose”, “Borden”, email = “rborden4@vols.utk.edu”, role = c("aut", "cre"))
+Description: This package takes a set of ridge orientations in azimuth and outputs the
+    preferred orientation of the ridges and the formational stress. There are functions
+    that find the mode of the data, graph the output on a rose diagram, and overlay the    
+    stress orientation for the mode of the ridge orientations.
+Depends: R (>= 3.3.2)
+Imports:
+    ggplot2,
+    dplyr
+License: CC0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr

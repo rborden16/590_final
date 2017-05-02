@@ -1,0 +1,32 @@
+---
+title: "StressOrient"
+author: "Rose Borden"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{StressOrient}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# StressOrient package
+This package contains two functions. The first is written to assist in calculating
+the preferred orientation of a set of ridges and the corresponding stress
+orientation. The second is written to display the results graphically on a rose
+diagram.
+
+## OrientMode function
+
+This function calculates the mode of a vector composed of ridge orientations in
+azimuth format. The calculated mode will be the preferred orientation of
+the features. To use the function, the only necessary input is a numeric vector
+or column from a data frame consisting of a set of ridge orientations. The outputs
+are ox, the mode of the set of orientations, and sx, the inferred stress orientation
+at 90 degreees from the calculated ox.
+
+## OrientRose function
+
+This function draws a rose diagram using the ridge orientation data. The data are
+divided into 36 bins of 10 degrees each. The function also draws a yellow line at
+the preferred orientation (ox) and a red line at the inferred stress orientation
+(sx), using the values calculated by the OrientMode function.
