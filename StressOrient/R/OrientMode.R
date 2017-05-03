@@ -9,7 +9,5 @@
 OrientMode <- function(x) {
   ux <- unique(x)
   ox <- ux[which.max(tabulate(match(x, ux)))]
-  sx <- (ux + 90)
-  print(ox)
-  print(sx)
+  sx <- (ox + 90)
 }
